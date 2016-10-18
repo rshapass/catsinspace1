@@ -26,7 +26,6 @@ function draw() {
   for (var i = 0; i < bubbles.length; i++) {
     bubbles[i].move();
     bubbles[i].display();
-    clearScreen();
   }
 }
 
